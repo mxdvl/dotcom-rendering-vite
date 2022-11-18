@@ -8,6 +8,7 @@ export const passToClient = ["pageProps", "urlPathname"];
 
 async function render(pageContext: PageContextServer) {
   const { Page, pageProps } = pageContext;
+
   const pageHtml = renderToString(<Page {...pageProps} />);
 
   // See https://vite-plugin-ssr.com/head
