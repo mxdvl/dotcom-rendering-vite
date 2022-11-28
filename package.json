@@ -9,7 +9,7 @@
   "dependencies": {
     "@babel/core": "^7.20.2",
     "@emotion/react": "^11.10.5",
-    "@guardian/tsconfig": "^0.1.6",
+    "@guardian/tsconfig": "^0.2.0",
     "@preact/preset-vite": "^2.4.0",
     "@swc/core": "^1.3.18",
     "@types/compression": "^1.7.2",
